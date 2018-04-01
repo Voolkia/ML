@@ -1,0 +1,100 @@
+Column;Used;Null Rate; Type; Unique values; Values
+ID;X;0.07;object;14934856;"Top 10:
+NaN                                                            10156
+La Caja                                                         4016
+Dirección Comercial                                             2862
+www.lacaja.com.ar                                               2694
+Atención al Cliente Digital                                     2356
+Saludos                                                         2068
+www.lacaja.com.ar                                               1774
+Lacaja.com.ar                                                   1350
+Casa Central-Fitz Roy 957, C1414CHI Buenos Aires, Argentina     1344
+Carola                                                          1325"
+CIF_ID;;1.87;object;2117485;"Top 10:
+NaN         281139
+0             4450
+ACCA          2635
+787992        2303
+ACCP          2062
+860091        1827
+14187837      1774
+0.0           1700
+MAIL          1632
+1586283       1622"
+IN_OUT;;1.25;object;297;"Top 10:
+O                             9950841
+I                             4408966
+A                              492513
+NaN                            188688
+Consulta Administrativo          2635
+Consulta General de Póliza       2062
+Envio de email                   1632
+Envio de SMS                     1308
+Atención a Bancos                1080
+Devolución Primas                 902"
+CANAL_COMUNICACION;;27.57;object;21;"Top 10:
+EMAI    5063754
+TEL     4622262
+NaN     4151803
+SMS      581653
+WEB      181684
+IN       151414
+BAOF     124845
+PRES     104767
+CHAT      23315
+MAIL      22650"
+FECHA;;1.39;object;4341402;"Top 10:
+NaN           208949
+26/04/2019      4010
+25/04/2019      3733
+10/04/2019      3628
+02/05/2019      3489
+03/05/2019      3302
+01/03/2019      3116
+15/05/2019      3107
+20/05/2019      2929
+11/01/2019      2891"
+OBSERVACIONES;;15.83;object;9780913;"Top 10:
+NaN                                            2383659
+TOUCHPOINT SOLICITUD DOC                         71831
+ADMINISTRACION DE REPUESTOS;011 4857-7884 ;      51558
+;                                                51474
+TOUCHPOINT GESTION POLIZA                        37939
+TOUCHPOINT COMPRA                                34180
+Producto: PROTECCION CARTERA                     34069
+TOUCHPOINT RECLAMOS                              31547
+CONSULTA DE SINIESTROS                           21575
+TOUCHPOINT SINIESTROS                            20786"
+GESTION;;1.54;object;760;"Top 10:
+MAIL    4899782
+H038    3551894
+INF     1049706
+DD02     704225
+SMS      496395
+H033     275629
+NaN      232558
+H024     201281
+HO49     196288
+ATPR     157225"
+DESCRIPCION;;1.52;object;756;"Top 10:
+Envio de email                                             4899782
+Impresión/PDF Automotor                                    3551894
+Informacion de Cotizadores                                 1049706
+Impresión Documentación por envío digital                   704225
+Envio de SMS                                                496395
+Autogestion Web / Impresión de Cupón Pago desde la Web      275629
+NaN                                                         229210
+Autogestion Web / Impresión de Cupón desde la Web           201281
+Envío de Encuesta T-NPS                                     196288
+atención presencial                                         157225"
+AGRUPACION;;73.2;object;9;"Top 10:
+NaN                                                  11025231
+CONSULTAS O GESTIONES SOBRE POLIZA                    3780607
+CONSULTAR SOBRE INSPECCIONES / EQUIPO RECUPERADOR      109812
+CONTRATAR UN NUEVO SEGURO                               61048
+CONSULTAR TEMAS DE PAGO                                 53575
+BAJA DE POLIZA                                          12088
+SOLICITAR BAJA DE POLIZA                                 9092
+RECLAMOS                                                 8986
+SOLICITA AUXILIO MECANICO                                 543
+CONOCER EL ESTADO DE UN SINIESTRO                         287"

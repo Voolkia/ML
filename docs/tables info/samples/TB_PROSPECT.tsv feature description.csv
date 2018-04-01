@@ -1,0 +1,705 @@
+Column;Used;Null Rate; Type; Unique values; Values
+ID;X;0.0;int64;99999;"[8;12872858]"
+TIPO_DOCUMENTO;;0.0;object;1;"Top 10:
+DOC    99999"
+NUMERO_DOCUMENTO;;0.0;int64;1;"[11111111;11111111]"
+APELLIDO;;0.0;object;1;"Top 10:
+LOPEZ    99999"
+NOMBRES;;0.0;object;1;"Top 10:
+JUAN     99999"
+ORIGEN;X;0.0;object;32;"Top 10:
+043     35792
+082     35067
+095     19363
+083      5653
+003       833
+023       820
+074       797
+PLAT      530
+005       427
+091       123"
+SEXO;;1.64;object;2;"Top 10:
+M      64120
+F      34244
+NaN     1635"
+CLIENTE;;79.84;object;2;"Top 10:
+NaN    79835
+S      20139
+N         25"
+CUIT_CUIL;;0.0;int64;1;"[20111111110;20111111110]"
+FECHA_NACIMIENTO;;31.31;object;20190;"Top 10:
+NaN           31314
+01/01/1900      490
+11/11/1911      143
+01/01/1950      108
+01/11/1911       98
+01/01/1980       93
+01/01/1960       84
+10/10/1970       78
+01/01/1970       77
+10/10/1950       69"
+FECHA_DEFUNCION;;99.66;object;320;"Top 10:
+NaN                         99659
+20/10/2015                      2
+02/07/1998 04:23:52 p.m.        2
+02/10/2012                      2
+21/06/2012                      2
+09/02/2015                      2
+25/07/2012                      2
+03/09/2001                      2
+01/01/2000                      2
+30/08/2013                      2"
+ACT_U_DOMICILIOS;;70.19;object;1413;"Top 10:
+NaN             70193
+VILLANUEVA       7388
+OPS$CONSOLA      4972
+TELETODO         1940
+PAEZA             446
+BARETTA           391
+OPS$WS            346
+OPS$CAMARINO      163
+OPS$ROMEU         124
+OPS$CAFARENA      122"
+ACT_U_EDAD;;100.0;float64;0;"[nan;nan]"
+ACT_U_TELEFONOS;;91.68;object;52;"Top 10:
+NaN            91683
+VILLANUEVA      6705
+OPS$CONSOLA      388
+TELETODO         375
+PAEZA            340
+BARETTA          282
+OPERADOR          76
+MTOSCANO          71
+RISO              10
+FERNAMARI          5"
+PADRON;;80.51;object;3;"Top 10:
+NaN    80512
+S      12814
+N       4879
+X       1794"
+ESTADO_CIVIL;;36.91;object;8;"Top 10:
+Casado        42726
+NaN           36911
+Soltero       14562
+Viudo          2499
+Divorciado     2360
+Separado        505
+Conviv          416
+Union Civ        14
+No Corresp        6"
+DOMICILIO_NUMERO;;85.58;object;4918;"Top 10:
+NaN     85576
+S/N       144
+1500       71
+0          48
+1          34
+2085       23
+1200       19
+480        19
+1981       17
+135        16"
+ACT_F_SEXO;;3.14;object;53824;"Top 10:
+NaN                         3139
+21/11/2002 02:16:54 p.m.     218
+21/11/2002 02:16:53 p.m.     180
+21/11/2002 02:16:47 p.m.     178
+21/11/2002 02:16:55 p.m.     121
+09/10/2002 03:48:19 p.m.     102
+26/12/1998                    86
+01/10/2002 10:56:02 a.m.      79
+21/11/2002 02:16:06 p.m.      62
+15/12/1997 01:12:32 p.m.      42"
+DOMICILIO_CODIGO_POSTAL;;84.23;float64;1510;"[1613.0;9420016.0]"
+DOMICILIO_DEPTO;;96.43;object;198;"Top 10:
+NaN    96430
+A        859
+B        622
+C        333
+D        227
+2        187
+1        164
+3        152
+E        113
+4         96"
+DOMICILIO_PISO;;96.24;object;99;"Top 10:
+NaN    96236
+1        616
+PB       568
+2        483
+3        352
+4        281
+5        231
+6        208
+7        192
+8        152"
+CARACTERISTICA_TELEFONO;;100.0;float64;0;"[nan;nan]"
+NUMERO_TELEFONO;;99.99;float64;7;"[0.0;37744.0]"
+TIPO_PERSONA;X;0.0;object;2;"Top 10:
+F    98525
+J     1474"
+FECHA_ALTA;;37.62;object;22532;"Top 10:
+NaN           37619
+23/12/1996     8183
+02/06/1997     3307
+10/02/1997     1458
+08/01/1997     1399
+19/02/1997     1282
+28/05/1997     1279
+13/05/1997      870
+31/03/1997      776
+24/12/1996      606"
+FECHA_ACTUALIZACION;;37.0;object;62006;"Top 10:
+NaN                         36998
+13/03/2001 01:22:59 a.m.       14
+11/02/1998 07:21:58 a.m.       13
+08/09/1998 02:27:13 a.m.       12
+08/09/1998 02:27:14 a.m.       11
+07/12/1999 04:25:12 a.m.       10
+11/02/1998 07:21:59 a.m.        8
+11/02/1998 05:25:51 a.m.        7
+28/05/1999 12:32:06 p.m.        7
+09/02/2000 04:36:36 p.m.        7"
+NACIONALIDAD;;99.97;object;1;"Top 10:
+NaN     99971
+ARGE       28"
+HABILITADO;;65.41;object;1;"Top 10:
+NaN    65406
+S      34593"
+DATECO_TRABAJA;;80.78;object;2;"Top 10:
+NaN    80783
+N      17155
+S       2061"
+ACT_F_TELEFONOS;;91.68;object;3319;"Top 10:
+NaN                         91683
+27/11/1998 04:04:26 p.m.       33
+27/11/1998 04:04:37 p.m.       32
+27/11/1998 04:04:41 p.m.       31
+27/11/1998 04:04:38 p.m.       31
+27/11/1998 04:03:33 p.m.       31
+27/11/1998 04:04:25 p.m.       31
+24/11/1998 05:29:07 p.m.       31
+27/11/1998 04:04:13 p.m.       30
+27/11/1998 04:04:43 p.m.       29"
+ACT_F_APELLIDO_NOMBRES;X;0.2;object;61373;"Top 10:
+NaN                         196
+11/08/2004 05:24:09 p.m.     63
+11/08/2004 05:24:17 p.m.     60
+11/08/2004 05:24:19 p.m.     56
+11/08/2004 05:24:27 p.m.     54
+11/08/2004 05:24:13 p.m.     54
+11/08/2004 05:24:10 p.m.     54
+11/08/2004 05:24:33 p.m.     53
+11/08/2004 05:24:24 p.m.     52
+11/08/2004 05:24:23 p.m.     51"
+ACT_F_ESTADO_CIVIL;;37.78;object;54358;"Top 10:
+NaN                         37778
+05/01/2006 09:00:47 p.m.       55
+05/01/2006 09:00:50 p.m.       42
+05/01/2006 09:00:49 p.m.       30
+05/01/2006 09:00:48 p.m.       30
+05/01/2006 09:00:51 p.m.       30
+30/03/1998 09:24:23 a.m.       28
+30/03/1998 09:23:57 a.m.       26
+30/03/1998 09:24:54 a.m.       25
+30/03/1998 09:24:16 a.m.       24"
+ACT_F_HABILITADO;;65.37;object;23109;"Top 10:
+NaN                         65372
+30/03/1998 09:24:23 a.m.       39
+30/03/1998 09:24:15 a.m.       34
+30/03/1998 09:23:57 a.m.       34
+30/03/1998 09:24:37 a.m.       33
+30/03/1998 09:24:54 a.m.       32
+30/03/1998 09:35:49 a.m.       31
+30/03/1998 09:24:51 a.m.       30
+30/03/1998 09:24:40 a.m.       28
+30/03/1998 09:35:53 a.m.       28"
+DOMICILIO_OBSERVACIONES;;92.9;object;1530;"Top 10:
+NaN               92896
+ENCUESTABLE        5358
+PORT                 27
+B                    17
+BIS                  16
+PORTERIA             14
+BARRIO CENTRO        13
+CASA                 11
+ENTRE 51  Y 53        9
+A                     9"
+DOMICILIO_BARRIO;;97.22;object;1014;"Top 10:
+NaN                 97215
+CABALLITO              92
+CENTRO                 89
+PALERMO                81
+FLORES                 76
+VILLA URQUIZA          67
+BELGRANO               65
+ALMAGRO                49
+RECOLETA               41
+VILLA DEL PARQUE       35"
+DOMICILIO_CALLE;;85.09;object;6260;"Top 10:
+NaN                        85085
+AV BERNARDINO RIVADAVIA       50
+AV DEL LIBERTADOR             44
+25 DE MAYO                    44
+ITALIA                        42
+TUCUMAN                       42
+MENDOZA                       39
+CALLE 2                       37
+2                             36
+SAN LORENZO                   36"
+DOMICILIO_EDIFICIO;;99.8;object;112;"Top 10:
+NaN    99795
+1         17
+5         13
+2         11
+3          8
+4          5
+6          5
+10         4
+E          4
+11         4"
+DOMICILIO_CALLE_ENTRE1;;98.95;object;790;"Top 10:
+NaN           98946
+RIVADAVIA        11
+BELGRANO          8
+NEUQUEN           6
+MORENO            6
+SAN MARTIN        5
+TUCUMAN           5
+CONGRESO          5
+JUNCAL            5
+CORRIENTES        5"
+DOMICILIO_CALLE_ENTRE2;;99.12;object;707;"Top 10:
+NaN                99120
+GUEMES                 7
+AVELLANEDA             7
+CHILE                  6
+RIVADAVIA              5
+MENDOZA                5
+BLANCO ENCALADA        5
+ALEM                   4
+ALVEAR                 4
+ARGERICH               4"
+DATART_CLAVE_CLIENTE;;98.01;object;1991;"Top 10:
+NaN             98008
+L23164370909        1
+L20140102858        1
+L27224265633        1
+L20203148152        1
+L20111113379        1
+L20107580329        1
+L20231264753        1
+L20221482183        1
+L23147042019        1"
+DATECO_CUIT_EMPLEADOR;;73.88;float64;2180;"[316949.0;34628302725.0]"
+DATECO_INGRESO_FAMILIAR;;100.0;float64;1;"[2200.0;2200.0]"
+DATECO_INGRESO_PERSONAL;;98.68;float64;1147;"[0.0;20636044.0]"
+DATECO_AUTONOMO;;82.21;object;2;"Top 10:
+NaN    82209
+N      17426
+S        364"
+DATECO_RAZON_SOCIAL_EMPLEADOR;;73.03;object;3053;"Top 10:
+NaN                                                    73027
+COVIPOL - COOP.VIV.CRED.Y                               7936
+MUNICIPALIDAD DE ROSARIO                                4852
+ASOCIACION DE MEDICOS MUN DE LA CIUDAD DE BUENOS AI     3917
+MUNIC.DE GRAL.PUEYRREDON INST.SUP.DE EST.TECN.          1052
+MUNICIPALIDAD DE SAN NICOLAS                             931
+OBRA SOC EMPL PUBLICOS                                   611
+MINISTERIO DE SALUD PROV BA                              443
+LABORATORIOS ELEA SACIFYA                                212
+COLEGIO MEDICO CATAMARCA                                 154"
+DATECO_ACT_F_AUTONOMO;;82.05;object;17839;"Top 10:
+NaN                         82053
+15/03/2002 12:19:59 p.m.        4
+30/07/2001 10:35:17 a.m.        2
+07/10/2002 03:15:30 p.m.        2
+15/03/2002 11:55:39 a.m.        2
+11/03/2002 09:40:51 a.m.        2
+22/10/2002 11:03:06 a.m.        2
+14/03/2002 01:02:34 p.m.        2
+13/03/2002 12:22:56 p.m.        2
+02/08/2001 12:23:02 p.m.        2"
+DATECO_ACT_F_INGRESO_FAMILIAR;;100.0;object;2;"Top 10:
+NaN                         99997
+09/09/2003 05:31:48 p.m.        1
+07/04/1999 12:26:56 p.m.        1"
+DATECO_ACT_F_INGRESO_PERSONAL;;98.65;object;1291;"Top 10:
+NaN                         98653
+09/03/1998 09:50:42 a.m.        6
+30/03/1998 09:24:22 a.m.        4
+11/11/1999 03:16:43 a.m.        4
+30/03/1998 09:21:49 a.m.        3
+30/03/1998 09:23:58 a.m.        3
+28/01/1998 05:52:19 p.m.        2
+28/04/1998 07:58:37 a.m.        2
+28/01/1998 09:01:37 p.m.        2
+27/03/1998 09:28:56 p.m.        2"
+DATECO_ACT_F_TRABAJA;;80.62;object;19264;"Top 10:
+NaN                         80624
+15/03/2002 12:19:59 p.m.        4
+14/03/2002 01:03:03 p.m.        2
+10/08/2001 09:55:41 a.m.        2
+07/10/2002 10:25:53 a.m.        2
+12/03/2002 04:51:14 p.m.        2
+08/10/2002 12:07:18 p.m.        2
+22/10/2002 09:49:42 a.m.        2
+10/08/2001 01:35:38 p.m.        2
+24/07/2001 04:21:14 p.m.        2"
+DATECO_OBSERVACIONES;;99.77;object;191;"Top 10:
+NaN                 99774
+EDAD ESCOLAR            9
+jubilado                6
+edad escolar            6
+JUBILADO                3
+comerciante             3
+albañil                 3
+policia                 3
+empleado                3
+tecnico mecanico        2"
+DATECO_TELEFONO_EMPLEADOR;;97.64;object;1093;"Top 10:
+NaN           97637
+25-7075/8        95
+4326-0174        86
+    394528       48
+ 3725860         42
+0713-92385       36
+    329200       32
+075224460        28
+    84080        26
+    311630       26"
+DATECO_DOMICILIO_EMPLEADOR;;95.57;object;2861;"Top 10:
+NaN                       95570
+CORDOBA 1882                 94
+SARMIENTO 877 6              51
+HIPOLITO YRIGOYEN 1770       46
+AVDA LUJAN 3654              43
+SARMIENTO S/N                36
+LIMA 219                     36
+SUIPACHA 150 10              29
+JUNIN 328                    28
+SARMIENTO 877 6              28"
+DATMAR_CANTIDAD_HIJOS;;93.08;float64;13;"[0.0;32.0]"
+DATMAR_CLUB;;99.89;object;88;"Top 10:
+NaN                       99889
+no                            6
+san lorenzo                   4
+A.C.A.                        3
+boca                          3
+C.A. RIVER PLATE              3
+ACA                           3
+river                         2
+ciudad de buenos aires        2
+circulo militar               2"
+DATMAR_COMPLETO_ESTUDIOS;;81.3;object;2;"Top 10:
+NaN    81296
+N      17418
+S       1285"
+DATMAR_NIVEL_EDUCACION;;83.09;object;4;"Top 10:
+NaN              83086
+PRIMARIO         14563
+SECUNDARIO        1328
+UNIVERSITARIO      672
+TERCIARIO          350"
+DATMAR_PUNTAJE;;100.0;float64;0;"[nan;nan]"
+DATMAR_VIAJES_ANUALES;;99.91;float64;8;"[0.0;14.0]"
+DATMAR_ACT_F_CANTIDAD_HIJOS;;93.13;object;6753;"Top 10:
+NaN                         93132
+11/03/1999 10:14:41 a.m.       19
+11/03/1999 10:15:13 a.m.        9
+11/03/1999 10:14:42 a.m.        9
+11/03/1999 10:15:18 a.m.        8
+11/03/1999 10:14:08 a.m.        7
+11/03/1999 10:14:26 a.m.        6
+11/03/1999 10:14:27 a.m.        5
+11/03/1999 10:12:52 a.m.        4
+11/03/1999 10:14:12 a.m.        4"
+DATMAR_ACT_F_CLUB;;99.89;object;110;"Top 10:
+NaN                         99889
+25/08/1999 01:43:17 p.m.        1
+25/08/1999 07:26:13 p.m.        1
+07/07/1998 12:11:50 p.m.        1
+31/08/1999 01:29:15 p.m.        1
+12/08/1999 02:18:47 p.m.        1
+20/08/1999 04:22:03 p.m.        1
+06/08/1999 03:26:20 p.m.        1
+03/08/1999 05:29:33 p.m.        1
+04/08/1999 05:42:57 p.m.        1"
+DATMAR_ACT_F_COMPLETO_ESTUDIOS;;81.14;object;18508;"Top 10:
+NaN                         81136
+24/12/1998 11:09:50 a.m.       16
+24/12/1998 11:06:49 a.m.       13
+24/12/1998 11:07:57 a.m.       12
+24/12/1998 11:07:38 a.m.       12
+24/12/1998 11:08:15 a.m.        9
+24/12/1998 11:06:51 a.m.        9
+24/12/1998 11:09:47 a.m.        9
+24/12/1998 11:08:18 a.m.        8
+24/12/1998 11:08:19 a.m.        8"
+DATMAR_ACT_F_NIVEL_EDUCACION;;82.93;object;16943;"Top 10:
+NaN                         82931
+07/09/1998 12:08:05 p.m.       20
+07/09/1998 12:08:07 p.m.       13
+07/09/1998 12:08:06 p.m.       11
+15/03/2002 12:19:59 p.m.        4
+03/08/2001 09:47:58 a.m.        2
+12/03/2002 10:00:13 a.m.        2
+15/03/2002 11:34:47 a.m.        2
+03/08/2001 05:10:15 p.m.        2
+03/08/2001 11:50:09 a.m.        2"
+DATMAR_ACT_F_PUNTAJE;;100.0;float64;0;"[nan;nan]"
+DATMAR_ACT_F_VIAJES_ANUALES;;99.91;object;90;"Top 10:
+NaN                         99909
+24/11/1998 02:20:53 p.m.        1
+20/07/1998 02:53:37 p.m.        1
+04/09/1998 05:30:39 p.m.        1
+06/07/1998 02:04:11 p.m.        1
+16/06/1998 04:18:28 p.m.        1
+23/08/1999 08:32:23 p.m.        1
+04/09/1998 06:02:39 p.m.        1
+30/07/1998 10:57:56 a.m.        1
+09/07/1998 11:47:43 a.m.        1"
+OPERADOR;;68.24;object;79;"Top 10:
+NaN            68236
+OPERADOR        9476
+OPS$CONSOLA     8901
+TELETODO        6821
+RISO            4961
+PAEZA            502
+MOSQUERA         257
+LNF               76
+MTOSCANO          70
+EZ                69"
+DATECO_TIPO_ACTIVIDAD;;81.83;object;526;"Top 10:
+NaN     81825
+EMPL     6178
+COME     1304
+ADMI     1118
+JUBI     1095
+OTRO     1054
+AMAD      593
+MEDI      526
+DOCE      521
+ABOG      448"
+DATMAR_VACACIONES;;98.81;object;32;"Top 10:
+NaN     98811
+NVLF      531
+COST      242
+NOVA       89
+INTE       77
+MDPL       59
+EXTE       29
+CORD       19
+URUG       17
+BRAS       17"
+DATMAR_HOBBIE;;100.0;object;1;"Top 10:
+NaN     99996
+DEPO        3"
+DOMICILIO_TRAMO_ID;;100.0;float64;0;"[nan;nan]"
+DOMICILIO_ID_ENTRE_1;;99.56;float64;346;"[4.0;44115.0]"
+DOMICILIO_ID_ENTRE_2;;99.63;float64;294;"[4.0;43483.0]"
+ACT_F;X;0.0;object;36135;"Top 10:
+02/05/2006 08:45:04 p.m.    752
+02/05/2006 08:44:39 p.m.    722
+02/05/2006 08:45:03 p.m.    558
+02/05/2006 08:44:38 p.m.    415
+02/05/2006 07:18:26 p.m.    388
+02/05/2006 07:18:51 p.m.    377
+02/05/2006 07:18:52 p.m.    367
+02/05/2006 07:18:54 p.m.    367
+02/05/2006 07:18:50 p.m.    366
+02/05/2006 08:44:40 p.m.    366"
+ACT_U;X;0.0;object;2284;"Top 10:
+PATALLO         60122
+OPS$CONSOLA      5063
+OPS$WEBSPHER     2422
+HERRERA          1856
+OPS$WS            879
+WFSQL             828
+OPS$WSSOA         484
+OPS$RUGGIERP      315
+OPS$CAMARINO      287
+MAYOTTI           215"
+DOMICILIO_SEMAFORO;;96.93;object;2;"Top 10:
+NaN    96927
+A       1862
+V       1210"
+TELEFONO_SEMAFORO;;99.13;object;3;"Top 10:
+NaN    99128
+R        458
+A        410
+V          3"
+ESTADO_CIVIL_SEMAFORO;;100.0;float64;0;"[nan;nan]"
+FECHA_NACIMIENTO_SEMAFORO;;100.0;float64;0;"[nan;nan]"
+TIPO_DOMICILIO;;78.68;object;5;"Top 10:
+NaN     78677
+PART    21124
+COFI      104
+LABO       87
+TRAB        5
+CORR        2"
+PREFIJO_INTERNACIONAL;;100.0;float64;1;"[54.0;54.0]"
+PREFIJO_INTERURBANO;;100.0;float64;3;"[1.0;96.0]"
+TIPO_TELEFONO;;99.36;object;1;"Top 10:
+NaN     99360
+PART      639"
+CODIGO_NACION;;3.17;object;24;"Top 10:
+ARGE    96580
+NaN      3172
+URUY       51
+PARG       45
+ITAI       32
+CHIE       23
+BOLV       19
+ESPÑ       16
+ARG        12
+OTRO       12"
+ACT_F_APELLIDO;;0.96;object;57936;"Top 10:
+NaN                         962
+15/12/1997 01:12:32 p.m.     43
+26/12/1998                   39
+30/03/1998 09:24:23 a.m.     36
+30/03/1998 09:23:57 a.m.     33
+30/03/1998 09:24:54 a.m.     32
+30/03/1998 09:24:15 a.m.     32
+15/12/1997 01:12:31 p.m.     32
+21/01/1998 05:02:45 p.m.     31
+21/01/1998 07:07:46 p.m.     31"
+ACT_F_NOMBRES;;1.72;object;59487;"Top 10:
+NaN                         1719
+11/08/2004 05:24:09 p.m.      64
+11/08/2004 05:24:17 p.m.      60
+11/08/2004 05:24:19 p.m.      56
+11/08/2004 05:24:27 p.m.      55
+11/08/2004 05:24:10 p.m.      55
+11/08/2004 05:24:13 p.m.      54
+11/08/2004 05:24:33 p.m.      53
+11/08/2004 05:24:24 p.m.      52
+11/08/2004 05:24:23 p.m.      50"
+ANO_DE_NACIMIENTO;;31.28;float64;117;"[1900.0;2033.0]"
+TELEFONO_ID;;43.6;float64;56404;"[16.0;13820324.0]"
+DOMICILIO_ID;;25.56;float64;74437;"[134.0;21982375.0]"
+DOMICILIO_LATITUD;;89.71;float64;10001;"[-71.43880588;-55.1172394]"
+DOMICILIO_LONGITUD;;89.71;float64;9999;"[-54.83169941;-23.12626296]"
+POSICION_IVA;;25.07;float64;7;"[1.0;8.0]"
+POSICION_IB;;56.08;float64;4;"[-9.0;3.0]"
+NUMERO_IB;;99.42;float64;204;"[0.0;11220163611520.0]"
+DATECO_ACT_U_TIPO_ACTIVIDAD;;81.99;object;1221;"Top 10:
+NaN             81991
+WFSQL            1420
+OPS$WS            382
+OPS$WEBSPHER      259
+OPS$ESPINOLA      212
+PATALLO           198
+OPS$TURBEL        187
+OPS$KAPLAN        153
+OPS$CHEVASCO      135
+OPS$YANEZ         128"
+DATECO_ACT_F_TIPO_ACTIVIDAD;;81.99;object;16609;"Top 10:
+NaN                         81991
+31/03/2005 03:56:01 p.m.       91
+31/03/2005 03:56:02 p.m.       79
+31/03/2005 03:56:00 p.m.       77
+31/03/2005 03:56:03 p.m.       66
+31/03/2005 03:56:05 p.m.       59
+31/03/2005 03:56:04 p.m.       55
+31/03/2005 01:29:41 p.m.       47
+31/03/2005 01:25:48 p.m.       45
+31/03/2005 03:55:59 p.m.       41"
+ACT_F_TIPO_DOCUMENTO;;62.19;object;15396;"Top 10:
+NaN                         62189
+27/12/2002 10:55:34 a.m.       11
+12/06/2002 06:23:45 p.m.       10
+08/03/2002 02:28:36 p.m.        9
+24/12/2001 10:34:30 a.m.        9
+08/03/2002 02:47:05 p.m.        9
+08/03/2002 02:19:52 p.m.        9
+08/03/2002 02:57:29 p.m.        9
+24/12/2001 10:34:42 a.m.        9
+24/12/2001 10:29:43 a.m.        9"
+ACT_F_NUMERO_DOCUMENTO;;61.9;object;15178;"Top 10:
+NaN                         61898
+04/05/2000 10:56:32 a.m.       11
+04/05/2000 10:55:03 a.m.       10
+12/06/2002 06:23:45 p.m.       10
+04/05/2000 10:56:33 a.m.        9
+24/12/2001 10:34:42 a.m.        9
+08/03/2002 02:28:36 p.m.        9
+08/03/2002 02:47:05 p.m.        9
+08/03/2002 02:19:52 p.m.        9
+28/12/2000 03:11:07 p.m.        9"
+VALIDO;;22.36;object;1;"Top 10:
+S      77636
+NaN    22363"
+NEWSLETTER;;100.0;float64;0;"[nan;nan]"
+SEGMENTABLE;;100.0;float64;0;"[nan;nan]"
+ESTADO_CLIENTE;;99.28;object;1;"Top 10:
+NaN    99281
+C        718"
+PADRE;;100.0;float64;0;"[nan;nan]"
+TIPO_ORGANIZACION;;98.26;object;4;"Top 10:
+NaN        98262
+Privada     1701
+Publica       34
+PRIVADA        1
+PUBLICA        1"
+ACTIVIDAD_SEGURO;;99.73;float64;31;"[1.0;37.0]"
+MCA_LAVADO;;99.55;object;2;"Top 10:
+NaN    99545
+N        449
+S          5"
+PKUNIVAL;;71.47;object;1;"Top 10:
+NaN    71473
+S      28526"
+FORMA_JURIDICA;;99.99;object;3;"Top 10:
+NaN        99992
+S.A.           5
+privada        1
+SA             1"
+TELEFONO_CEL_ID;;81.35;float64;18653;"[13093.0;13824766.0]"
+MAIL_ID;;79.34;float64;20663;"[33.0;3289236.0]"
+LUGAR_NACIMIENTO;;99.68;object;66;"Top 10:
+NaN               99675
+caba                111
+bs as                46
+corrientes           22
+santa fe             11
+entre rios           10
+sgo del estero        8
+SAN JUAN              8
+cordoba               7
+salta                 6"
+POLITICAMENTE_EXPUESTA;;98.94;object;2;"Top 10:
+NaN    98936
+S        625
+N        438"
+F_INSC_REGISTRAL;;100.0;object;1;"Top 10:
+NaN           99998
+12/03/2019        1"
+NRO_INSC_REGISTRAL;;100.0;float64;0;"[nan;nan]"
+F_CONTRATO_SOCIAL;;100.0;object;1;"Top 10:
+NaN           99998
+12/03/2019        1"
+MCA_SUSP_COBERTURA;;99.57;object;1;"Top 10:
+NaN    99566
+N        433"
+MOTIVO_MCA_LAVADO;;100.0;float64;2;"[2.0;6.0]"
+POLITICAMENTE_EXPUESTA_DDJJ;;99.37;object;2;"Top 10:
+NaN    99367
+N        598
+S         34"
+DATECO_FECHA_TIPO_ACT;;98.26;object;1;"Top 10:
+NaN           98256
+20/05/2015     1743"
+CONFIRMADO_FNAC;;91.44;object;8548;"Top 10:
+NaN                         91440
+01/04/2019                      4
+31/05/2019                      4
+28/05/2019                      2
+04/04/2019                      2
+24/01/2018 09:45:46 a.m.        2
+22/04/2019                      2
+14/05/2019                      2
+26/10/2017 03:21:04 p.m.        1
+29/04/2019 10:27:43 a.m.        1"
+USUARIO_RED_SOCIAL_ID;;99.96;float64;36;"[153.0;5962.0]"
+OBSERVACION_LAVADO;;100.0;float64;0;"[nan;nan]"

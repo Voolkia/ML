@@ -1,0 +1,264 @@
+Column;Used;Null Rate; dtype; Unique values; values
+NRO_PRESUP;X;0.0;int64;1409393;"[44968989;46499325]"
+CIF_ID;X;0.0;int64;162052;"[1779;23151785]"
+COD_CIA;X;0.0;int64;2;"[1;14]"
+COD_SECC;;0.0;int64;1;"[4;4]"
+COD_RAMO;;0.0;int64;1;"[1;1]"
+FECHA_EQUIPO;X;0.0;object;151;"04/02/2019    14310
+15/01/2019    14222
+23/01/2019    14167
+17/01/2019    14024
+05/02/2019    13764
+21/01/2019    13729
+22/01/2019    13722
+07/01/2019    13657
+18/01/2019    13648
+03/01/2019    13574
+Name: FECHA_EQUIPO, dtype: int64"
+FECHA_SOLIC;;89.27;object;151;"04/01/2019    1989
+11/01/2019    1977
+08/02/2019    1871
+07/01/2019    1850
+28/02/2019    1839
+01/04/2019    1836
+01/02/2019    1797
+11/02/2019    1787
+08/01/2019    1778
+14/01/2019    1770
+Name: FECHA_SOLIC, dtype: int64"
+COD_AGENCIA_PRESU;X;0.0;int64;163;"[20;9895]"
+COD_AGENCIA_SOLIC;;89.21;float64;146;"[20.0;9892.0]"
+COD_INICIADOR;X;33.23;float64;478;"[20000.0;99998.0]"
+ESTADO;X;0.0;object;4;"PRESU    1258205
+SOLIC     126983
+BAJA       23051
+RECH.       1166
+Name: ESTADO, dtype: int64"
+COD_MARCA;X;0.0;int64;10198;"[112;98618]"
+COD_MOD;X;0.0;int64;67;"[1937;2019]"
+COD_PLAN;;87.92;float64;98;"[23.0;987.0]"
+SUMA_ASEG;X;0.0;float64;6517;"[-1.0;51600000.0]"
+TIPO_COMBUSTIBLE;X;1.25;object;5;"N    1181353
+D     162282
+G      45439
+R       2692
+I         34
+Name: TIPO_COMBUSTIBLE, dtype: int64"
+GRUPO_COMBUSTIBLE;X;1.25;float64;8;"[0.0;7.0]"
+ORIGEN;X;0.0;object;2;"PR    1371613
+ID      37792
+Name: ORIGEN, dtype: int64"
+FOR_COBRO;;75.85;object;6;"PP    198746
+TM     79565
+BA     33964
+CC     26968
+SJ       699
+TA       417
+Name: FOR_COBRO, dtype: int64"
+NEGOCIO;X;32.03;object;61;"DEF      504769
+PP       198502
+TIE1M     36373
+AMV1      36225
+MOSTG     32345
+EMP       31119
+EMPGA     15858
+TIE3M     15092
+TIE2M     14179
+AMV2      13970
+Name: NEGOCIO, dtype: int64"
+COD_PROD;X;0.0;int64;1579;"[5;99998]"
+COD_POSTAL;X;0.0;int64;7133;"[1059;9420017]"
+AGRUPADOR_DIRECTO;;99.99;float64;1;"[5.0;5.0]"
+COD_AGENCIA_GES;;95.95;float64;3;"[5775.0;5785.0]"
+FECHA_COTIZ_ANT;;100.0;float64;0;"[nan;nan]"
+CANAL_ORIGEN;X;0.0;object;2;"INDIRECTO    940946
+DIRECTO      468459
+Name: CANAL_ORIGEN, dtype: int64"
+ORIGEN_DESC;X;0.04;object;14;"Term.            435085
+Web              304746
+Banc.            301638
+Agrupad.         118912
+Tmk Out           59871
+Suc. Metro        55516
+AgEx.             42103
+Suc. Interior     40272
+Tmk               37792
+Conces.           11577
+Name: ORIGEN_DESC, dtype: int64"
+REGION;;66.76;object;20;"REG. INTERNET                304745
+REG. TMK                      67194
+REG. METRO SUR                26942
+REG. METRO NOROESTE           25871
+MULTIT JUJUY/SALTA             7779
+MULTIT CORDOBA                 5373
+MULTIT SANTA FE                4710
+MULTIT TUCUMAN                 4187
+MULTIT GRAL ROCA               3835
+MULTIT COMODORO RIVADAVIA      3526
+Name: REGION, dtype: int64"
+NOM_ORIGEN_PRESU;X;0.0;object;560;"INTERNET                                 304746
+COURTAGE S.A.                            235713
+BANCO SANTANDER RIO S.A.                 155410
+GARBARINO S.A.                            94026
+TOYOTA CIA FINANCIERA DE ARGENTINA SA     92837
+BBVA BANCO FRANCES SA                     89474
+AMV LATINOAMERICA SA                      62537
+TELEMARKETING OUT                         34498
+ICBC (ARGENTINA) SA                       34416
+TELEMARKETING                             32215
+Name: NOM_ORIGEN_PRESU, dtype: int64"
+SOLICITA_MISMO_AUTO;;100.0;float64;0;"[nan;nan]"
+NUM_SECU_POL;;92.46;float64;106212;"[1905902229999.0;1960852299999.0]"
+EDAD;;80.33;float64;114;"[0.0;119.0]"
+SEXO;;80.11;object;2;"M    192886
+F     87414
+Name: SEXO, dtype: int64"
+ESTADO_CIVIL;;81.22;object;8;"Soltero       134697
+Casado        108499
+Divorciado      9333
+Conviv          5049
+Viudo           3602
+Separado        1609
+No Corresp      1497
+Union Civ        470
+Name: ESTADO_CIVIL, dtype: int64"
+BANCO;;100.0;float64;0;"[nan;nan]"
+MARCA_MODELO;X;0.0;object;1437;"CLIO         129026
+MARCH        108012
+HILUX         44090
+KA            39522
+FIESTA        36822
+ECOSPORT      36262
+COROLLA       36028
+FOCUS         34151
+GOL TREND     33321
+ETIOS         32233
+Name: MARCA_MODELO, dtype: int64"
+PUERTAS;X;4.94;float64;11;"[0.0;45.0]"
+LOCALIDAD;X;0.04;object;6374;"CAPITAL FEDERAL                 380304
+CIUDAD AUTONOMA BUENOS AIRES     50670
+LA PLATA                         20696
+ALTO ALBERDI                     17995
+ROSARIO                          14966
+SALTA                            11712
+CORDOBA                          11442
+MAR DEL PLATA                     9134
+RINCON DE EMILIO                  8814
+RIO GRANDE                        8603
+Name: LOCALIDAD, dtype: int64"
+PROVINCIA;X;0.0;object;25;"BUENOS AIRES        542849
+CAPITAL FEDERAL     430987
+CORDOBA              72989
+SANTA FE             47260
+MENDOZA              29161
+TUCUMAN              25972
+CHUBUT               25418
+NEUQUEN              24169
+TIERRA DEL FUEGO     22041
+ENTRE RIOS           20297
+Name: PROVINCIA, dtype: int64"
+MARCA;X;0.0;object;186;"RENAULT       237232
+VOLKSWAGEN    183053
+FORD          178367
+TOYOTA        140345
+CHEVROLET     124145
+NISSAN        123351
+PEUGEOT       111187
+FIAT           88909
+CITROEN        45009
+HONDA          44408
+Name: MARCA, dtype: int64"
+VERSION;X;0.16;object;8794;"SENSE 1.6                    104814
+MIO 1.2 5P DYNAMIQUE SAT     103021
+1.6 5P L/17 TRENDLINE          6881
+1.6 SE 5P                      6086
+1.5 SE L/18                    5897
+1.4 LT L/17                    5206
+1.6 SE L/13                    5047
+1.5 S L/18                     4812
+ 1.4 5P ALLURE/XS COMPACT      4744
+SEG CVT L/18                   4575
+Name: VERSION, dtype: int64"
+NACIONAL_IMPORT;X;0.0;object;2;"N    1179728
+S     229666
+Name: NACIONAL_IMPORT, dtype: int64"
+TRACCION;X;1.47;object;7;"S    1301299
+D      84422
+R       2667
+I        124
+2         54
+.         34
+1         33
+Name: TRACCION, dtype: int64"
+TIPO;X;0.0;object;30;"SEDAN               956179
+SUV                 111983
+PICK-UP             110137
+MOTOCICLETA          67390
+VAN                  53609
+ASIMIL. A RURAL      28886
+COUPE                24425
+CAMIONETA FURGON     19680
+RURAL                12960
+T.TERR.              11039
+Name: TIPO, dtype: int64"
+MCA_0KM;X;21.17;object;2;"NO    924613
+SI    186452
+Name: MCA_0KM, dtype: int64"
+REC_TR_REAL;X;1.47;object;7;"ALTO     1090940
+MALTO     191291
+MEDIO      91192
+BBAJO       7049
+MMBAJ       3628
+BAJO        2449
+MBAJO       2110
+Name: REC_TR_REAL, dtype: int64"
+REC_TC_REAL;X;1.47;object;7;"MALTO    562121
+ALTO     524846
+MEDIO    233382
+BAJO      43399
+MBAJO     12168
+BBAJO      7049
+MMBAJ      5694
+Name: REC_TC_REAL, dtype: int64"
+REC_RC_REAL;X;1.44;object;4;"MEDIO    1108995
+BAJO      137104
+MBAJO     135902
+BBAJO       7049
+Name: REC_RC_REAL, dtype: int64"
+COMPRO_PLAN;;94.35;object;4;"Terceros                32756
+Terceros con granizo    19419
+TR                      18210
+RC                       9195
+Name: COMPRO_PLAN, dtype: int64"
+COMPRO_PACK;;94.35;object;4;"Pack Comodo     49990
+Pack Ahorro     20392
+RC               9195
+Pack Clasico        3
+Name: COMPRO_PACK, dtype: int64"
+REC_TC_VIGENTE;X;1.47;object;7;"MALTO    562121
+ALTO     524846
+MEDIO    233382
+BAJO      43399
+MBAJO     12168
+BBAJO      7049
+MMBAJ      5694
+Name: REC_TC_VIGENTE, dtype: int64"
+REC2_1;X;1.47;object;7;"MALTO    549234
+ALTO     539786
+MEDIO    234276
+BAJO      43029
+MBAJO      9636
+BBAJO      7049
+MMBAJ      5649
+Name: REC2_1, dtype: int64"
+REDU_TIPO;X;0.0;object;17;"AUTOS, CAMIONE.RURAL    947946
+AUTOS, CAM.RURAL IMP    135393
+JEEPS DE +4 CIL.Y PI    103116
+PICK-UPS DE CLASE "A     86879
+MOTOCICLETAS, TRICIC     67265
+JEEPS DE HASTA 4 CIL     65053
+TRAILERS Y BANTAMS        2293
+CAMIONES Y SEMITRACC       501
+CASAS RODANTES SIN P       399
+CASAS RODANTES CON P       273
+Name: REDU_TIPO, dtype: int64"

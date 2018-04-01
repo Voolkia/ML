@@ -1,0 +1,100 @@
+Column;Used;Null Rate; Type; Unique values; Values
+ID;X;0.12;object;24781760;"Top 10:
+NaN                                                                                                                             30747
+www.lacaja.com.ar                                                                                                                8605
+Atención al Cliente Digital                                                                                                      7368
+Gracias por contactarte.                                                                                                         6123
+Verónica Gatica Amadori                                                                                                          5939
+Lunes a viernes de 9:00 a 18:00hs.                                                                                               5190
+Bajate la aplicación gratuita desde las tiendas de Google Play o Apple Store, y comenzá a operar ya mismo desde tu celular:      5109
+La Caja                                                                                                                          4742
+www.lacaja.com.ar                                                                                                                4442
+Saludos                                                                                                                          4298"
+CIF_ID;;2.38;object;2146231;"Top 10:
+NaN         596797
+MAIL         12465
+ACCA          5413
+0             5120
+16647307      4955
+ACCP          4702
+787992        4464
+SMS           3138
+14187837      3053
+ACDP          2267"
+IN_OUT;;1.74;object;344;"Top 10:
+O                             13913240
+I                              9592664
+A                              1072998
+NaN                             436840
+Envio de email                   12465
+Consulta Administrativo           5413
+Consulta General de Póliza        4702
+Envio de SMS                      3138
+Devolución Primas                 2267
+Consulta                          1995"
+CANAL_COMUNICACION;;15.83;object;20;"Top 10:
+TEL                                   10618844
+EMAI                                   8210012
+NaN                                    3968810
+SMS                                    1041298
+IN                                      350895
+WEB                                     332606
+PRES                                    253077
+BAOF                                    235126
+MAIL                                     32197
+CONSULTAS O GESTIONES SOBRE POLIZA        8976"
+FECHA;;1.98;object;8540344;"Top 10:
+NaN           497427
+02/01/2018     10169
+08/01/2018     10001
+15/01/2018      9608
+05/01/2018      9546
+03/01/2018      9532
+04/01/2018      9182
+05/02/2018      8651
+10/01/2018      8540
+02/02/2018      8482"
+OBSERVACIONES;;18.88;object;16114042;"Top 10:
+NaN                                            4734416
+TOUCHPOINT SOLICITUD DOC                        128083
+ADMINISTRACION DE REPUESTOS;011 4857-7884 ;     103178
+;                                               102974
+TOUCHPOINT GESTION POLIZA                        77611
+TOUCHPOINT RECLAMOS                              67231
+TOUCHPOINT COMPRA                                62752
+TOUCHPOINT SINIESTROS                            54568
+Producto: PROTECCION ESENCIAL HOGAR              52862
+CONSULTA DE SINIESTROS                           51653"
+GESTION;;2.26;object;795;"Top 10:
+MAIL    7773679
+H038    3333496
+INF     1842114
+DD02    1629489
+SMS      879485
+H033     570757
+NaN      566134
+DD33     460785
+HO49     390971
+ATPR     370749"
+DESCRIPCION;;2.23;object;791;"Top 10:
+Envio de email                                             7773679
+Impresión/PDF Automotor                                    3333496
+Informacion de Cotizadores                                 1842114
+Impresión Documentación por envío digital                  1629489
+Envio de SMS                                                879485
+Autogestion Web / Impresión de Cupón Pago desde la Web      570757
+NaN                                                         558014
+Segmentación no descarga documentación DEP                  460785
+Envío de Encuesta T-NPS                                     390971
+atención presencial                                         370749"
+AGRUPACION;;81.88;object;9;"Top 10:
+NaN                                                  20532482
+CONSULTAS O GESTIONES SOBRE POLIZA                    3858585
+CONSULTAR SOBRE INSPECCIONES / EQUIPO RECUPERADOR      272382
+CONTRATAR UN NUEVO SEGURO                              206951
+CONSULTAR TEMAS DE PAGO                                127374
+BAJA DE POLIZA                                          31826
+SOLICITAR BAJA DE POLIZA                                23692
+RECLAMOS                                                21333
+SOLICITA AUXILIO MECANICO                                1087
+CONOCER EL ESTADO DE UN SINIESTRO                         617"

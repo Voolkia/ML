@@ -1,0 +1,280 @@
+Column;Used;Null Rate; Type; Unique values; Values
+NRO_PRESUP;X;0.0;int64;5330548;"[41135001;47036928]"
+CIF_ID;X;0.0;int64;529768;"[1103;23225832]"
+COD_CIA;X;0.0;int64;2;"[1;14]"
+COD_SECC;;0.0;int64;1;"[4;4]"
+COD_RAMO;;0.0;int64;1;"[1;1]"
+FECHA_EQUIPO;X;0.0;object;566;"Top 10:
+16/03/2018    70618
+18/03/2018    69803
+17/03/2018    68915
+19/03/2018    35928
+29/06/2018    16451
+10/03/2018    16404
+14/06/2018    15277
+10/07/2019    15033
+27/07/2018    14844
+03/07/2018    14642"
+FECHA_SOLIC;;89.63;object;566;"Top 10:
+NaN           4777561
+28/12/2018       2094
+04/01/2019       1989
+11/01/2019       1977
+07/09/2018       1929
+08/02/2019       1871
+29/06/2018       1854
+26/12/2018       1851
+07/01/2019       1850
+28/02/2019       1839"
+COD_AGENCIA_PRESU;X;0.0;int64;177;"[20;9895]"
+COD_AGENCIA_SOLIC;;89.59;float64;174;"[20.0;9892.0]"
+COD_INICIADOR;;36.79;float64;639;"[20000.0;99998.0]"
+ESTADO;X;0.0;object;4;"Top 10:
+PRESU    4777569
+SOLIC     504737
+BAJA       43861
+RECH.       4408"
+COD_MARCA;X;0.0;int64;12349;"[106;98778]"
+COD_MOD;X;0.0;int64;80;"[0;2019]"
+COD_PLAN;;87.88;float64;127;"[3.0;989.0]"
+SUMA_ASEG;X;0.0;float64;12137;"[-1.0;54000000.0]"
+TIPO_COMBUSTIBLE;;1.44;object;6;"Top 10:
+N      4318373
+D       661990
+G       264342
+NaN      76695
+R         9093
+I           81
+E            1"
+GRUPO_COMBUSTIBLE;;1.44;float64;9;"[0.0;21.0]"
+ORIGEN;X;0.0;object;2;"Top 10:
+PR    5204116
+ID     126459"
+FOR_COBRO;;74.3;object;6;"Top 10:
+NaN    3960567
+PP      877676
+TM      265039
+BA      113523
+CC      108432
+SJ        3518
+TA        1820"
+NEGOCIO;;36.21;object;74;"Top 10:
+NaN      1930024
+DEF      1719346
+PP        876363
+EMP       135059
+TIE1M     117506
+AMV1      107871
+MOSTG      72469
+TIE3M      49191
+TIE2M      45168
+AMV2       41403"
+COD_PROD;X;0.0;int64;2018;"[5;99998]"
+COD_POSTAL;X;0.0;int64;9921;"[1059;9420017]"
+AGRUPADOR_DIRECTO;;99.99;float64;1;"[5.0;5.0]"
+COD_AGENCIA_GES;;96.38;float64;4;"[5775.0;5787.0]"
+FECHA_COTIZ_ANT;;100.0;float64;0;"[nan;nan]"
+CANAL_ORIGEN;X;0.0;object;2;"Top 10:
+INDIRECTO    3369097
+DIRECTO      1961478"
+ORIGEN_DESC;X;0.04;object;14;"Top 10:
+Term.            1464043
+Web              1366383
+Banc.            1179502
+Agrupad.          410933
+Suc. Metro        212797
+Tmk Out           195906
+AgEx.             167719
+Suc. Interior     153711
+Tmk               126459
+Conces.            46632"
+REGION;;63.2;object;20;"Top 10:
+NaN                    3369098
+REG. INTERNET          1366380
+REG. TMK                226225
+REG. METRO SUR           97282
+REG. METRO NOROESTE      94264
+MULTIT JUJUY/SALTA       29334
+REG. METRO               21247
+MULTIT CORDOBA           21025
+MULTIT SANTA FE          20060
+MULTIT TUCUMAN           15350"
+NOM_ORIGEN_PRESU;X;0.0;object;736;"Top 10:
+INTERNET                                   1366383
+COURTAGE S.A.                               719696
+BANCO SANTANDER RIO S.A.                    600003
+TOYOTA CIA FINANCIERA DE ARGENTINA SA       356272
+GARBARINO S.A.                              328588
+BBVA BANCO FRANCES SA                       294592
+AMV LATINOAMERICA SA                        182561
+ICBC (ARGENTINA) SA                         176744
+BANCO DE GALICIA Y BUENOS AIRES             129111
+EXPERTISE BROKER ASESORES DE SEGUROS SA     121816"
+SOLICITA_MISMO_AUTO;;100.0;float64;0;"[nan;nan]"
+NUM_SECU_POL;;91.94;float64;429731;"[1767272219999.0;1980374809999.0]"
+EDAD;;81.46;float64;120;"[0.0;119.0]"
+SEXO;;81.2;object;2;"Top 10:
+NaN    4328172
+M       691805
+F       310598"
+ESTADO_CIVIL;;82.39;object;8;"Top 10:
+NaN           4391830
+Soltero        459088
+Casado         402271
+Divorciado      32283
+Conviv          17198
+Viudo           13580
+No Corresp       7428
+Separado         5387
+Union Civ        1510"
+BANCO;;100.0;float64;0;"[nan;nan]"
+MARCA_MODELO;X;0.0;object;1791;"Top 10:
+CLIO         447571
+MARCH        282241
+HILUX        189784
+KA           162169
+FIESTA       152552
+ECOSPORT     147723
+COROLLA      144958
+ETIOS        138424
+FOCUS        129494
+GOL TREND    128983"
+PUERTAS;;3.93;float64;11;"[0.0;45.0]"
+LOCALIDAD;X;0.03;object;8900;"Top 10:
+CAPITAL FEDERAL                 1471099
+CIUDAD AUTONOMA BUENOS AIRES     181827
+LA PLATA                          71840
+ALTO ALBERDI                      68366
+ROSARIO                           60179
+SALTA                             44058
+CORDOBA                           38476
+MAR DEL PLATA                     36228
+RIO GRANDE                        32332
+LANUS                             30591"
+PROVINCIA;X;0.0;object;25;"Top 10:
+BUENOS AIRES        2013365
+CAPITAL FEDERAL     1652982
+CORDOBA              277301
+SANTA FE             186631
+MENDOZA              112735
+TUCUMAN               95974
+CHUBUT                91473
+NEUQUEN               85378
+ENTRE RIOS            80540
+TIERRA DEL FUEGO      79885"
+MARCA;X;0.0;object;252;"Top 10:
+RENAULT       875556
+FORD          732231
+VOLKSWAGEN    707424
+TOYOTA        562461
+CHEVROLET     493638
+PEUGEOT       419539
+FIAT          358719
+NISSAN        342156
+CITROEN       178656
+HONDA         152457"
+VERSION;X;0.17;object;10236;"Top 10:
+MIO 1.2 5P DYNAMIQUE SAT     344501
+SENSE 1.6                    269781
+1.5 S                         28913
+1.6 SE 5P                     25025
+1.5 SE                        22020
+1.6 5P L/17 TRENDLINE         21867
+1.6 SE L/13                   18204
+1.4 LT L/17                   18044
+1.5 SE L/18                   17801
+ 1.4 5P ALLURE/XS COMPACT     17417"
+NACIONAL_IMPORT;X;0.0;object;2;"Top 10:
+N      4399372
+S       931077
+NaN        126"
+TRACCION;;1.19;object;7;"Top 10:
+S      4899756
+D       357426
+NaN      63664
+R         9012
+I          358
+2          154
+.          119
+1           86"
+TIPO;X;0.0;object;38;"Top 10:
+SEDAN               3581066
+PICK-UP              458539
+SUV                  455645
+VAN                  201269
+MOTOCICLETA          198197
+ASIMIL. A RURAL      114131
+COUPE                 96485
+CAMIONETA FURGON      71381
+RURAL                 52871
+T.TERR.               45211"
+MCA_0KM;;26.16;object;3;"Top 10:
+NO     3096481
+NaN    1394380
+SI      839711
+N            3"
+REC_TR_REAL;;1.63;object;7;"Top 10:
+ALTO     4027988
+MALTO     676930
+MEDIO     391118
+NaN        87025
+BAJO       85143
+BBAJO      33840
+MMBAJ      18367
+MBAJO      10164"
+REC_TC_REAL;;1.63;object;7;"Top 10:
+ALTO     2267662
+MALTO    1745797
+MEDIO     854595
+BAJO      238018
+NaN        87025
+MBAJO      78650
+BBAJO      33840
+MMBAJ      24988"
+REC_RC_REAL;;1.61;object;4;"Top 10:
+MEDIO    4152718
+BAJO      599354
+MBAJO     458671
+NaN        85992
+BBAJO      33840"
+COMPRO_PLAN;;94.4;object;4;"Top 10:
+NaN                     5032273
+Terceros                 125361
+TR                        77922
+Terceros con granizo      66664
+RC                        28355"
+COMPRO_PACK;;94.4;object;4;"Top 10:
+NaN             5032273
+Pack Comodo      197101
+Pack Ahorro       72804
+RC                28355
+Pack Clasico         42"
+REC_TC_VIGENTE;;1.63;object;7;"Top 10:
+ALTO     2267662
+MALTO    1745797
+MEDIO     854595
+BAJO      238018
+NaN        87025
+MBAJO      78650
+BBAJO      33840
+MMBAJ      24988"
+REC2_1;;1.63;object;7;"Top 10:
+ALTO     2323831
+MALTO    1698805
+MEDIO     854592
+BAJO      236376
+NaN        87025
+MBAJO      71391
+BBAJO      33840
+MMBAJ      24715"
+REDU_TIPO;X;0.0;object;21;"Top 10:
+AUTOS, CAMIONE.RURAL    3499063
+AUTOS, CAM.RURAL IMP     575511
+JEEPS DE +4 CIL.Y PI     432180
+PICK-UPS DE CLASE "A     345016
+JEEPS DE HASTA 4 CIL     266791
+MOTOCICLETAS, TRICIC     198273
+TRAILERS Y BANTAMS         7700
+CAMIONES Y SEMITRACC       2472
+CASAS RODANTES SIN P       1399
+CASAS RODANTES CON P       1195"
