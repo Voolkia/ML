@@ -1,0 +1,34 @@
+
+
+
+
+
+Objetivo:
+probabilidad de baja los próximos 3 meses
+
+3.1 Alcance
+
+Dentro de los alcances de este trabajo se pueden mencionar: 
+Se predecirá la baja de clientes de seguro automotor. 
+Los clientes serán personas naturales, por lo que se deja de lado a empresas y/o instituciones. 
+
+4.1 Definición de Baja Efectiva – Cliente perdido:
+
+Aquel que no posee póliza vigente los siguientes 3 meses posteriores a la fecha de baja
+
+
+Conceptos importantes de las pólizas
+
+Se seleccionaron 50000 clientes de forma aleatoria  (no se trata de una muestra estratificada), 10.000 por cada enero correspondientes a 5 años.
+Ene - 2014: 10000
+Ene - 2015: 10000
+Ene - 2016: 10000
+Ene - 2017: 10000
+Ene - 2018: 10000
+
+La póliza se corresponde con una sola persona, no se asegura a más de un conductor o propietario de vehículo.
+Se dispone del historial de las pólizas vigentes y/o canceladas desde 2004 a enero 2018.
+La renovación de una póliza se realiza de manera automática mensualmente. Excepción que el cliente informe su cancelación.
+Las Cancelaciones de pólizas pueden  darse por solicitud del cliente, problema con el pago (acreditación), cambio de producto, cambio de vehículo asegurado. La cancelación de una póliza no implica la pérdida del cliente.
+
+

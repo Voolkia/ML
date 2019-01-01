@@ -1,0 +1,239 @@
+
+DICIONARIO DE DATOS
+
+
+
+TB_CLIENTES_FECHA
+Aspectos Personales del cliente.
+Customer details
+CUSTOMER_ID
+Customer ID
+Customer details
+DATE_OF_BIRTH
+Date of birth
+Customer details
+GENDER
+Gender
+Customer details
+MARITAL_STATUS
+Marital status
+Customer details
+EDUCATION
+Education
+Customer details
+OCCUPATION
+Occupation
+Customer details
+CITY
+City
+Customer details
+LOCALITY
+Locality or zip code
+Customer details
+EDUCATION_LEVEL
+ 
+Customer details
+FECHA_PROCESO
+ 
+
+TB_POLIZAS_CL
+  Información sobre Pólizas vigentes del producto AUTO.
+Policy details
+CUSTOMER_ID
+Customer ID of policy owner
+Policy details
+POLICY_NUMBER
+Policy Number
+Policy details
+DATE_ISSUE
+Date of issue  (policy number)
+Policy details
+DATE_COMMENCENT_RISK
+Date of commencement of risk (policy original)
+Policy details
+NAME_OF_PRODUCT
+Name of product
+Policy details
+TYPE_PRODUCT
+Type of product
+Policy details
+PREMIUM
+Premium
+Policy details
+SUM_ASSURED
+Sum assured
+Policy details
+PAYMENT_FREQUENCY
+Premium payment frequency
+Policy details
+CHANNEL
+Channel
+Policy details
+CHANEL_ID
+Agent ID
+Policy details
+COD_VEH_MAKE
+Insured vehicle details (e.g., Make, Model, year)
+Policy details
+VEH_MARK
+ 
+Policy details
+VEH_MODEL
+ 
+Policy details
+VEH_YEAR
+ 
+Policy details
+COVERAGE_DETAILS
+Coverage details
+Policy details
+PROCESS_DATE
+ 
+Policy details
+POLICY_ORIGINAL
+ 
+Policy details
+AGENT_ID
+ 
+Policy details
+SUB_AGENT_ID
+ 
+
+TB_BAJAS_CL
+detalle de las cancelaciones de pólizas (no implica baja del cliente)
+Policy cancellation
+POLICY_NUMBER
+Policy number
+Policy cancellation
+CANCELLATION_DATE
+cancellation date
+Policy cancellation
+CANCELLATION_REASON
+cancellation reason
+
+Tb_interacciones
+Información de interacción del cliente con la compañía (no se dispone de intecaciones por póliza)
+Interactions
+CUSTOMER_ID
+Policy number   --> identificador Cliente 
+Interactions
+INTERACTION_TYPE
+Interaction type 
+Interactions
+MODE_OF_INTERACTION
+Mode of interaction
+Interactions
+INTERACTION_DATE
+Interaction date
+Interactions
+TEXT_DESCRIPTION
+Text description
+Interactions
+COMMENTS
+Comments by customer service executive
+Interactions
+COD_INTERACTION
+interaction code
+
+TB_SINIESTROS_CL
+detalle de los siniestros registrados por el cliente.
+Claim details
+CLAIM_ID
+Claim ID
+Claim details
+POLICY_NUMBER
+Policy number
+Claim details
+DATE_REPORTED
+Date reported
+Claim details
+DATE_OF_ACCIDENT
+Date of accident
+Claim details
+CLAIM_CASE_FILE
+ 
+Claim details
+DESCRIP_ACCIDENT
+Description of accident
+Claim details
+PAYMENT_AMOUNT
+Amount settled
+Claim details
+CLOSURE_DATE
+Closure date
+Claim details
+CURRENT_STATUS
+Current status
+Claim details
+PAYMENT_DATE
+Fecha de pago de la liquidación
+
+TB_PAGOS_CL
+detalle del pago de la poliza.
+Payment transactions
+POLICY_NUMBER
+Policy number
+Payment transactions
+PAYMENT_DATE
+payment date
+Payment transactions
+DUE_DATE
+Due date
+Payment transactions
+MODE_OF_PAYMENT
+Mode of payment
+Payment transactions
+PAYMENT_AMOUNT
+payment amount
+Payment transactions
+PAYMENT_STATUS
+payment status
+
+TB_AGENTES
+información  Agentes intermediarios en la contratación.
+Intermediary data - static
+AGENT_ID
+Agent ID
+Intermediary data - static
+AGENT_DESCRIPTION
+ 
+Intermediary data - static
+AGENT_TYPE
+ 
+
+TB_SUB_AGENTES
+detalle de los Productores  o subagentes intermediarios.
+Intermediary - time varying information
+AGENT_ID
+Agent ID
+Intermediary - time varying information
+SUB_AGENT_ID
+ 
+Intermediary - time varying information
+START_DATE
+Start date
+Intermediary - time varying information
+END_DATE
+End date
+Intermediary - time varying information
+EDUCATION
+Education
+Intermediary - time varying information
+ZIPCODE
+Locality or zipcode
+
+DEFINICIÓN DE BAJA EN DATOS
+
+De acuerdo a lo expuesto en los objetivos, alcances y definición de baja en el documento “Piloto de Cálculo de Probabilidad de Baja CHURN”, se define la siguiente lógica de asignación de CHURN:
+
+Si el cliente (TB_POLIZAS_CL->CUSTOMER_ID) no posee durante 3 meses consecutivos polizas de autos vigentes (en la tabla TB_POLIZAS_CL) 
+
+VER RESPECTO A LA TABLA DE PAGOS PARA AGREGAR MÁS INFORMACIÓN
+
+
+
+
+DUDAS RESPECTO A LOS DATOS:
+
+1. ¿Existe desfasaje entre el mes de pago y el mes correspondiente a dicho pago?
+2. 
